@@ -13,8 +13,8 @@
         <mxCell id="D6FSeWjlMXWAw4_R4qOk-63" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;fontFamily=Verdana;align=left;dashed=1;arcSize=7;strokeColor=#999999;" parent="bubSwurUZM-1NS-Vv8x6-12" vertex="1">
           <mxGeometry y="83" width="397" height="268.25" as="geometry" />
         </mxCell>
-        <mxCell id="D6FSeWjlMXWAw4_R4qOk-85" value="Teacher AutoEncoder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Verdana;" parent="bubSwurUZM-1NS-Vv8x6-12" vertex="1">
-          <mxGeometry x="13.191189591078068" y="62" width="137" height="18" as="geometry" />
+        <mxCell id="D6FSeWjlMXWAw4_R4qOk-85" value="Teacher Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" parent="bubSwurUZM-1NS-Vv8x6-12" vertex="1">
+          <mxGeometry x="-0.7288104089219338" y="57" width="102" height="29" as="geometry" />
         </mxCell>
         <mxCell id="bubSwurUZM-1NS-Vv8x6-26" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="bubSwurUZM-1NS-Vv8x6-12">
           <mxGeometry x="221.27" y="248.99979848866496" width="10" height="17.69521410579345" as="geometry" />
@@ -238,13 +238,13 @@
           <mxGeometry y="60" width="11" height="12" as="geometry" />
         </mxCell>
         <mxCell id="bubSwurUZM-1NS-Vv8x6-13" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="206" y="598" width="395" height="197" as="geometry" />
+          <mxGeometry x="206" y="598" width="395" height="203" as="geometry" />
         </mxCell>
         <mxCell id="D6FSeWjlMXWAw4_R4qOk-80" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;fontFamily=Verdana;align=left;dashed=1;arcSize=7;strokeColor=#999999;" parent="bubSwurUZM-1NS-Vv8x6-13" vertex="1">
           <mxGeometry width="395" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="D6FSeWjlMXWAw4_R4qOk-83" value="Student AutoEncoder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Verdana;" parent="bubSwurUZM-1NS-Vv8x6-13" vertex="1">
-          <mxGeometry x="7.397003745318352" y="179" width="138" height="18" as="geometry" />
+        <mxCell id="D6FSeWjlMXWAw4_R4qOk-83" value="Student Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontStyle=1;fontSize=14;" parent="bubSwurUZM-1NS-Vv8x6-13" vertex="1">
+          <mxGeometry x="2.9970037453183522" y="174" width="101" height="29" as="geometry" />
         </mxCell>
         <mxCell id="bubSwurUZM-1NS-Vv8x6-31" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="bubSwurUZM-1NS-Vv8x6-13">
           <mxGeometry x="311" y="91" width="10" height="10" as="geometry" />
