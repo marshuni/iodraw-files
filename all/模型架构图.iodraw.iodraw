@@ -13,6 +13,9 @@
         <mxCell id="D6FSeWjlMXWAw4_R4qOk-85" value="Teacher AutoEncoder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Verdana;" parent="bubSwurUZM-1NS-Vv8x6-12" vertex="1">
           <mxGeometry x="13.191189591078068" width="137" height="18" as="geometry" />
         </mxCell>
+        <mxCell id="bubSwurUZM-1NS-Vv8x6-26" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="bubSwurUZM-1NS-Vv8x6-12">
+          <mxGeometry x="221.27" y="99.88" width="10" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="D6FSeWjlMXWAw4_R4qOk-44" value="" style="group;strokeWidth=3;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="655" y="488.9950000000001" width="105" height="140" as="geometry" />
         </mxCell>
@@ -91,7 +94,7 @@
           <mxGeometry x="250" y="463" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="D6FSeWjlMXWAw4_R4qOk-21" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="523" y="470.63" width="10" height="10" as="geometry" />
+          <mxGeometry x="540" y="470.63" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="D6FSeWjlMXWAw4_R4qOk-43" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="88" y="498.9950000000001" width="70" height="140" as="geometry" />
@@ -257,6 +260,9 @@
         </mxCell>
         <mxCell id="bubSwurUZM-1NS-Vv8x6-25" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;rotation=-90;size=0.2222222222222222;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="492" y="285" width="102" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="bubSwurUZM-1NS-Vv8x6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;dashed=1;dashPattern=1 1;endArrow=block;endFill=1;endSize=3;" edge="1" parent="1" source="bubSwurUZM-1NS-Vv8x6-26" target="D6FSeWjlMXWAw4_R4qOk-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
