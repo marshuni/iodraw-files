@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="24.7.17">
   <diagram name="第 1 页" id="jwB_v7PV6T1Vq9oaf_1i">
-    <mxGraphModel dx="472" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="472" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,14 +56,38 @@
         <mxCell id="Ezm1LypTAisEPpHLC_F4-16" value="└─ 输出标准化 JSON 数据结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=-2;spacingBottom=0;" vertex="1" parent="Ezm1LypTAisEPpHLC_F4-13">
           <mxGeometry y="72" width="245" height="22" as="geometry" />
         </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ezm1LypTAisEPpHLC_F4-23" target="Ezm1LypTAisEPpHLC_F4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ezm1LypTAisEPpHLC_F4-23" value="前端上传 ELF 文件" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="50" y="720" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ezm1LypTAisEPpHLC_F4-24" target="Ezm1LypTAisEPpHLC_F4-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ezm1LypTAisEPpHLC_F4-24" value="Django 接收并保存到临时目录" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="50" y="780" width="230" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ezm1LypTAisEPpHLC_F4-25" target="Ezm1LypTAisEPpHLC_F4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ezm1LypTAisEPpHLC_F4-25" value="通过 subprocess 调用 C++ ELF 解析器" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="840" width="240" height="40" as="geometry" />
+          <mxGeometry x="30" y="840" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ezm1LypTAisEPpHLC_F4-26" target="Ezm1LypTAisEPpHLC_F4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-26" value="C++ 输出 JSON 到 stdout 或文件" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="900" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ezm1LypTAisEPpHLC_F4-27" target="Ezm1LypTAisEPpHLC_F4-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-27" value="Django 解析 JSON，传给前端" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="960" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-28" value="前端展示结果，分模块可折叠查看" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1020" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
