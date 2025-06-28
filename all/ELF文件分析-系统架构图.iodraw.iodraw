@@ -7,13 +7,13 @@
         <mxCell id="Ezm1LypTAisEPpHLC_F4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;" edge="1" parent="1" source="Ezm1LypTAisEPpHLC_F4-1" target="Ezm1LypTAisEPpHLC_F4-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ezm1LypTAisEPpHLC_F4-20" value="上传ELF文件，发起请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ezm1LypTAisEPpHLC_F4-18">
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-20" value="上传ELF文件，发起请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="Ezm1LypTAisEPpHLC_F4-18">
           <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="68" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ezm1LypTAisEPpHLC_F4-1" value="用户前端界面" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="140" height="80" as="geometry" />
+          <mxGeometry x="160" y="160" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ezm1LypTAisEPpHLC_F4-2" value="Bootstrap + HTML + JS&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ezm1LypTAisEPpHLC_F4-1">
           <mxGeometry y="26" width="140" height="24" as="geometry" />
@@ -23,6 +23,11 @@
         </mxCell>
         <mxCell id="Ezm1LypTAisEPpHLC_F4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;" edge="1" parent="1" source="Ezm1LypTAisEPpHLC_F4-7" target="Ezm1LypTAisEPpHLC_F4-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-21" value="子进程调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="Ezm1LypTAisEPpHLC_F4-19">
+          <mxGeometry x="-0.1667" y="2" relative="1" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ezm1LypTAisEPpHLC_F4-7" value="Django Web 后端" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="134.5" y="280" width="191" height="116" as="geometry" />
@@ -39,8 +44,8 @@
         <mxCell id="Ezm1LypTAisEPpHLC_F4-12" value="└─ 获取 JSON 解析结果并返回" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=-4;spacingBottom=0;" vertex="1" parent="Ezm1LypTAisEPpHLC_F4-7">
           <mxGeometry y="94" width="191" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="Ezm1LypTAisEPpHLC_F4-13" value="Django Web 后端" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="107.5" y="480" width="245" height="94" as="geometry" />
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-13" value="C++ ELF 文件解析模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="440" width="245" height="94" as="geometry" />
         </mxCell>
         <mxCell id="Ezm1LypTAisEPpHLC_F4-14" value="ElfParser + 各子模块（HeaderParser等）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ezm1LypTAisEPpHLC_F4-13">
           <mxGeometry y="26" width="245" height="24" as="geometry" />
