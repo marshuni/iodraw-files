@@ -56,6 +56,9 @@
         <mxCell id="Ezm1LypTAisEPpHLC_F4-16" value="└─ 输出标准化 JSON 数据结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=-2;spacingBottom=0;" vertex="1" parent="Ezm1LypTAisEPpHLC_F4-13">
           <mxGeometry y="72" width="245" height="22" as="geometry" />
         </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-23" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
