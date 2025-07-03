@@ -95,17 +95,14 @@
         <mxCell id="IRkkn0KDWghHrNYhDma5-8" value="&lt;div&gt;+ bool parse_elf_file(const char* filepath, const char* output_path)&lt;/div&gt;&lt;div&gt;// 读取ELF文件，分别调用子模块，传入文件指针&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IRkkn0KDWghHrNYhDma5-7">
           <mxGeometry y="26" width="420" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="IRkkn0KDWghHrNYhDma5-11" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="500" width="140" height="104" as="geometry" />
+        <mxCell id="IRkkn0KDWghHrNYhDma5-11" value="parsers/elf_header.c" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="450" width="250" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="IRkkn0KDWghHrNYhDma5-12" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IRkkn0KDWghHrNYhDma5-11">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        <mxCell id="IRkkn0KDWghHrNYhDma5-12" value="+ bool parse_elf_header(FILE* fp, cJSON* root)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IRkkn0KDWghHrNYhDma5-11">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="IRkkn0KDWghHrNYhDma5-13" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IRkkn0KDWghHrNYhDma5-11">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="IRkkn0KDWghHrNYhDma5-14" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IRkkn0KDWghHrNYhDma5-11">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
