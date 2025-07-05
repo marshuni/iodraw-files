@@ -1,0 +1,188 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="24.7.17">
+  <diagram name="第 1 页" id="jwB_v7PV6T1Vq9oaf_1i">
+    <mxGraphModel dx="1383" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;" parent="1" source="Ezm1LypTAisEPpHLC_F4-1" target="Ezm1LypTAisEPpHLC_F4-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-20" value="上传ELF文件，发起请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="Ezm1LypTAisEPpHLC_F4-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="68" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-1" value="用户前端界面" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-2" value="Bootstrap + HTML + JS&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Ezm1LypTAisEPpHLC_F4-1" vertex="1">
+          <mxGeometry y="26" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-3" value="└─ 文件上传、结果展示" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=-2;spacingBottom=0;" parent="Ezm1LypTAisEPpHLC_F4-1" vertex="1">
+          <mxGeometry y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;" parent="1" source="Ezm1LypTAisEPpHLC_F4-7" target="Ezm1LypTAisEPpHLC_F4-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-21" value="子进程调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="Ezm1LypTAisEPpHLC_F4-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.1667" y="2" relative="1" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-7" value="Python Django Web 后端" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="134.5" y="280" width="191" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-8" value="views.py&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Ezm1LypTAisEPpHLC_F4-7" vertex="1">
+          <mxGeometry y="26" width="191" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-9" value="└─ 保存文件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=-2;spacingBottom=0;" parent="Ezm1LypTAisEPpHLC_F4-7" vertex="1">
+          <mxGeometry y="50" width="191" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-11" value="└─ 调用 C ELF 解析器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=-3;spacingBottom=0;" parent="Ezm1LypTAisEPpHLC_F4-7" vertex="1">
+          <mxGeometry y="72" width="191" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-12" value="└─ 获取 JSON 解析结果并返回" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=-4;spacingBottom=0;" parent="Ezm1LypTAisEPpHLC_F4-7" vertex="1">
+          <mxGeometry y="94" width="191" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-13" value="C ELF 文件解析模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="107.5" y="440" width="245" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-14" value="ElfParser + 各子模块（HeaderParser等）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Ezm1LypTAisEPpHLC_F4-13" vertex="1">
+          <mxGeometry y="26" width="245" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-15" value="└─ 从 ELF 文件中提取各部分结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=-2;spacingBottom=0;" parent="Ezm1LypTAisEPpHLC_F4-13" vertex="1">
+          <mxGeometry y="50" width="245" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-16" value="└─ 输出标准化 JSON 数据结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=-2;spacingBottom=0;" parent="Ezm1LypTAisEPpHLC_F4-13" vertex="1">
+          <mxGeometry y="72" width="245" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ezm1LypTAisEPpHLC_F4-23" target="Ezm1LypTAisEPpHLC_F4-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-23" value="前端上传 ELF 文件" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="50" y="720" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ezm1LypTAisEPpHLC_F4-24" target="Ezm1LypTAisEPpHLC_F4-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-24" value="Django 接收并保存到临时目录" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="50" y="780" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ezm1LypTAisEPpHLC_F4-25" target="Ezm1LypTAisEPpHLC_F4-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-25" value="通过 subprocess 调用 C ELF 解析器" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="30" y="840" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ezm1LypTAisEPpHLC_F4-26" target="Ezm1LypTAisEPpHLC_F4-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-26" value="C++ 输出 JSON 到 stdout 或文件" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="50" y="900" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ezm1LypTAisEPpHLC_F4-27" target="Ezm1LypTAisEPpHLC_F4-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-27" value="Django 解析 JSON，传给前端" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="50" y="960" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezm1LypTAisEPpHLC_F4-28" value="前端展示结果，分模块可折叠查看" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1020" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-11" value="parsers/elf_header.c" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;gradientColor=none;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="540" y="440" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-12" value="+ bool parse_elf_header(FILE* fp, cJSON* root)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0;swimlaneFillColor=#FFFFFF;" parent="IRkkn0KDWghHrNYhDma5-11" vertex="1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-15" value="parsers/program_header.c" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="540" y="500" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-16" value="+ bool parse_program_header(FILE* fp, cJSON* root)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0;swimlaneFillColor=#FFFFFF;" parent="IRkkn0KDWghHrNYhDma5-15" vertex="1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-17" value="parsers/section_header.c" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="540" y="560" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-18" value="+ bool parse_section_header(FILE* fp, cJSON* root)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0;swimlaneFillColor=#FFFFFF;" parent="IRkkn0KDWghHrNYhDma5-17" vertex="1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-19" value="parsers/symbol_table.c" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="540" y="620" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-20" value="+ bool parse_symbol_table(FILE* fp, cJSON* root)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0;swimlaneFillColor=#FFFFFF;" parent="IRkkn0KDWghHrNYhDma5-19" vertex="1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-21" value="parsers/dynamic_segment.c" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="540" y="680" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-22" value="+ bool parse_dynamic_segment(FILE* fp, cJSON* root)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0;swimlaneFillColor=#FFFFFF;" parent="IRkkn0KDWghHrNYhDma5-21" vertex="1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-23" value="parsers/relocation_table.c" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="540" y="740" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-24" value="+ bool parse_relocation_table(FILE* fp, cJSON* root)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0;swimlaneFillColor=#FFFFFF;" parent="IRkkn0KDWghHrNYhDma5-23" vertex="1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="IRkkn0KDWghHrNYhDma5-29" target="IRkkn0KDWghHrNYhDma5-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="IRkkn0KDWghHrNYhDma5-29" target="IRkkn0KDWghHrNYhDma5-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="513" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="IRkkn0KDWghHrNYhDma5-29" target="IRkkn0KDWghHrNYhDma5-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="573" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="IRkkn0KDWghHrNYhDma5-29" target="IRkkn0KDWghHrNYhDma5-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="633" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="IRkkn0KDWghHrNYhDma5-29" target="IRkkn0KDWghHrNYhDma5-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="IRkkn0KDWghHrNYhDma5-29" target="IRkkn0KDWghHrNYhDma5-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="753" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-29" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="481" y="386" width="10" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-7" value="解析器模块 elf_parser.c" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=1;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="450" y="352" width="420" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-8" value="&lt;div&gt;+ bool parse_elf_file(const char* filepath, const char* output_path)&lt;/div&gt;&lt;div&gt;// 读取ELF文件，分别调用子模块，传入文件指针&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;fillStyle=solid;" parent="IRkkn0KDWghHrNYhDma5-7" vertex="1">
+          <mxGeometry y="26" width="420" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IRkkn0KDWghHrNYhDma5-38" target="IRkkn0KDWghHrNYhDma5-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRkkn0KDWghHrNYhDma5-38" value="&lt;div&gt;main.c&lt;/div&gt;&lt;div&gt;主程序入口&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="617" y="294" width="86" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
