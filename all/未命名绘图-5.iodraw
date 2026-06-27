@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OnYO9XPXtt6H2lxBTwPt-9" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="OnYO9XPXtt6H2lxBTwPt-9" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=none;dashed=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="272" y="1228" width="340" height="189" as="geometry" />
         </mxCell>
         <mxCell id="OnYO9XPXtt6H2lxBTwPt-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pic.rmb.bdstatic.com/bjh/3ea193108a02/251120/a2db0d69cd3d6720bb61f7cde259d597.png;" vertex="1" parent="1">
@@ -191,6 +191,11 @@
         <mxCell id="OnYO9XPXtt6H2lxBTwPt-1" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="298" y="1311" width="78" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="OnYO9XPXtt6H2lxBTwPt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OnYO9XPXtt6H2lxBTwPt-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="473" y="1195.7999877929688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OnYO9XPXtt6H2lxBTwPt-2" value="" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="434" y="1245" width="78" height="53" as="geometry" />
         </mxCell>
@@ -199,6 +204,12 @@
         </mxCell>
         <mxCell id="OnYO9XPXtt6H2lxBTwPt-7" value="台式机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="310" y="1381" width="54" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OnYO9XPXtt6H2lxBTwPt-10" value="家庭网络" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1421" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OnYO9XPXtt6H2lxBTwPt-13" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="456" y="1170" width="40" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
