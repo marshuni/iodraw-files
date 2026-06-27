@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OnYO9XPXtt6H2lxBTwPt-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pic.rmb.bdstatic.com/bjh/3ea193108a02/251120/a2db0d69cd3d6720bb61f7cde259d597.png;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1245" width="65.6" height="53" as="geometry" />
+        </mxCell>
         <mxCell id="Ezm1LypTAisEPpHLC_F4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;" parent="1" source="Ezm1LypTAisEPpHLC_F4-1" target="Ezm1LypTAisEPpHLC_F4-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -183,10 +186,16 @@
           <mxGeometry x="617" y="294" width="86" height="38" as="geometry" />
         </mxCell>
         <mxCell id="OnYO9XPXtt6H2lxBTwPt-1" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="262" y="1325" width="78" height="70" as="geometry" />
+          <mxGeometry x="298" y="1311" width="78" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OnYO9XPXtt6H2lxBTwPt-2" value="" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="451" y="1179" width="78" height="53" as="geometry" />
+          <mxGeometry x="434" y="1245" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="OnYO9XPXtt6H2lxBTwPt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="OnYO9XPXtt6H2lxBTwPt-1" target="OnYO9XPXtt6H2lxBTwPt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OnYO9XPXtt6H2lxBTwPt-7" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="332" y="1410" width="40" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
